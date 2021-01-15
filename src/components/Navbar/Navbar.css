@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "Titre";
+	src: url('../../police/CormorantGaramond-Regular.ttf');
+}
+
+.NavbarItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2.5rem;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar-logo{
+    color: #000;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw; 
+    justify-content: end;
+    margin-right: 2rem;
+
+}
+
+.nav-links {
+    font-family: "Titre";
+    font-style: normal;
+	font-weight: normal;
+    color: #000;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+h1{
+    text-align: center;
+}
